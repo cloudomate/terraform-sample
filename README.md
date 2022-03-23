@@ -13,4 +13,4 @@ terraform init
 terraform apply
 
 # Get EIP either using output method or by simply using "terraform state show g42cloud_vpc_eip.eip" to get the public ip
-you can use the key and login to ecs , ssh -i <your key path> root@<eip>
+you can use the key and login to ecs , ssh -i your_key_file root@public_ip
