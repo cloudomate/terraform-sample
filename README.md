@@ -4,7 +4,7 @@ This is simple terraform code to create a keypair, create vpc, subnet, security 
 G42_REGION_NAME="ae-ad-1" 
 G42_ACCESS_KEY=<your ak>
 G42_SECRET_KEY=<you sk>
-G42_PROJECT_NAME=<your project name> default value is ae-ad-1,if you are working on another project use ae-ad-1_<project name>
+G42_PROJECT_NAME=<your project name> default value is ae-ad-1,if you are working on another project use ae-ad-1_project name
 
 # create an ssh key pair on your local machine copy the public key to the public_key field (line 69 of code)
 
